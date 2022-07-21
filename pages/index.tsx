@@ -21,11 +21,9 @@ export default function MyGallery({ users }: { users: User[] }) {
     <div className="bg-gray-900 ">
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="flex flex-col items-center">
-          <h1 className="text-white text-5xl font-medium mb-2">
-            Customer Info
-          </h1>
+          <h1 className="text-white text-5xl font-bold mb-2">Customer Data</h1>
           <p className="text-gray-400 mb-14">
-            using Next.js & API Gateway (Supabase)
+            Using Next.js & API Gateway (Supabase)
           </p>
         </div>
         <div className="grid grid-cols-1 gap-y-10 gap-x-6 xl:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
